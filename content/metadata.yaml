@@ -1,26 +1,17 @@
 ---
-title: "Manuscript Title"
+title: "Bioinformatics Core Design Proposal"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: alemenze
+    name: Alexander Lemenze
+    initials: ADL
+    orcid: 0000-0003-3053-0849
+    email: alex.lemenze@rutgers.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Pathology, Immunology, and Laboratory Medicine, Rutgers University- New Jersey Medical School
+      - Center for Immunity and Inflammation, Rutgers University- New Jersey Medical School
+    
