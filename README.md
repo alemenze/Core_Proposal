@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/alemenze/Core_Proposal/tree/gh-pages) branch hosts the contents of this directory at <https://alemenze.github.io/Core_Proposal/>.
-The permalink for this webpage version is <https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/>.
+The permalink for this webpage version is <https://alemenze.github.io/Core_Proposal/v/6927f5ebff10e06faedaebc7c5181ea6c41e648c/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://alemenze.github.io/Core_Proposal/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`42c199ed04799ef221fc1785afcb1ebad426f80e`](https://github.com/alemenze/Core_Proposal/commit/42c199ed04799ef221fc1785afcb1ebad426f80e).
+[`6927f5ebff10e06faedaebc7c5181ea6c41e648c`](https://github.com/alemenze/Core_Proposal/commit/6927f5ebff10e06faedaebc7c5181ea6c41e648c).
