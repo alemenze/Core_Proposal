@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/6927f5ebff10e06faedaebc7c5181ea6c41e648c/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/6927f5ebff10e06faedaebc7c5181ea6c41e648c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/6927f5ebff10e06faedaebc7c5181ea6c41e648c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/))
+([permalink](https://alemenze.github.io/Core_Proposal/v/6927f5ebff10e06faedaebc7c5181ea6c41e648c/))
 was automatically generated
-from [alemenze/Core_Proposal@42c199e](https://github.com/alemenze/Core_Proposal/tree/42c199ed04799ef221fc1785afcb1ebad426f80e)
+from [alemenze/Core_Proposal@6927f5e](https://github.com/alemenze/Core_Proposal/tree/6927f5ebff10e06faedaebc7c5181ea6c41e648c)
 on January 22, 2021.
 </em></small>
 
@@ -108,14 +108,23 @@ The Core facility proposed herein shall be a semi-centralized effort. A semi-cen
 ## Example Bioinformatics Cores {.page_break_before}
 
 Various core facilities for bioinformatics have utilized their own solutions for implementation. A few examples:
+
 - [The Applied Bioinformatics Laboratories at NYU](https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories). This core facility offers services in a variation of the semi-centralized model. Staff are provided on a percent effort basis, scaling in 20% increments to essentially "rent" out the staff member to the respective lab for 1 day per 20% incremement per week. [@https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories]
+
 - [The Harvard Chan Bioinformatics Core](https://bioinformatics.sph.harvard.edu/). This core facility offers standard services, but is renowned for their training capabilities. [@https://bioinformatics.sph.harvard.edu/]
+
 - [The UCSD Bioinformatics Core](http://compbio.ucsd.edu/services/). This core has multiple branches and generally runs on an hourly staff rate. In addition, they have an extension with a well known training program that funds many of their services. [@https://extension.ucsd.edu/courses-and-programs/applied-bioinformatics]
+
 - [The Bioinformatics Core at the University of Michigan](https://brcf.medicine.umich.edu/cores/bioinformatics-core/). This is a more traditional fee-for-service designed core facility, with basic pipeline services offered with additional add ons at cost. This core also has spawned at least one major bioinformatics company- [Advaita](https://advaitabio.com/) [@https://brcf.medicine.umich.edu/cores/bioinformatics-core/;@https://advaitabio.com/]
+
 - [The University of Maryland Bioinformatics Core](http://biology.umd.edu/services.html). This core is a classic core facility offering hourly and per-project rates for pipelined services. [@https://advaitabio.com/]
+
 - [UT Southwestern Bioinformatics Core](https://www.utsouthwestern.edu/labs/bioinformatics/). This core has a slightly different spin on services, offering their staff as "on-demand" for FTE coverage, or as "in-residence" with salary coverage for a full year. [@https://www.utsouthwestern.edu/labs/bioinformatics/]
+
 - [The BSR at VIGR at UVM](https://www.med.uvm.edu/vigr/bioinformatics). Another slightly different take on a core, the Bioinformatics Shared Resource is nested within the Vermont Integrated Genomics Resource at UVM. This core charges an hourly rate to cover staff time operating on genomics workflows. [@https://www.med.uvm.edu/vigr/bioinformatics]
+
 - [Genomics and Informatics Core at MIT](https://cehs.mit.edu/core-facilities/genomics-and-informatics-facilities-core). This core also provides staff on an hourly rate to investigators, though they provide different costings for those who have invested in the core facility or provide staff. [@https://cehs.mit.edu/core-facilities/genomics-and-informatics-facilities-core]
+
 
 ## Core Organizational Structure {.page_break_before}
 
