@@ -1,12 +1,16 @@
 alemenze
+amongst
 bam
 Basepair
 bcl
+benchmarking
 bioinformaticians
 Bioinformatics
 biomedicine
+commesurate
 CRO
 CSV
+datasets
 demultiplexing
 differentially
 explicitely
@@ -26,6 +30,8 @@ natively
 NGS
 OARC
 Partek
-Pre
+pre
+proteomics
 SaaS
+TLDR
 Transcriptome

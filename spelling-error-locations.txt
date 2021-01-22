@@ -18,9 +18,17 @@ content/01.core_need.md:23:bioinformatics
 content/01.core_need.md:23:bioinformatics
 content/01.core_need.md:23:informaticians
 content/02.mission.md:1:Bioinformatics
-content/02.mission.md:3:bioinformatics
-content/02.mission.md:3:bioinformatics
-content/02.mission.md:3:bioinformatics
+content/02.mission.md:4:bioinformatics
+content/02.mission.md:4:bioinformatics
+content/02.mission.md:4:bioinformatics
+content/02.mission.md:4:TLDR
+content/02.mission.md:7:amongst
+content/02.mission.md:7:benchmarking
+content/02.mission.md:7:bioinformatics
+content/02.mission.md:7:datasets
+content/02.mission.md:7:datasets
+content/02.mission.md:7:metabolomics
+content/02.mission.md:7:proteomics
 content/03.core_structure.md:3:ICS
 content/03.core_structure.md:3:Metabolomics
 content/03.core_structure.md:3:Metabolomics
@@ -67,3 +75,6 @@ content/04.core_revenue.md:47:SaaS
 content/04.core_revenue.md:54:bioinformaticians
 content/04.core_revenue.md:54:differentially
 content/04.core_revenue.md:54:interogate
+content/04.core_revenue.md:58:bioinformaticians
+content/04.core_revenue.md:58:bioinformatics
+content/04.core_revenue.md:62:commesurate

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-21'
+date-meta: '2021-01-22'
 author-meta:
 - Alexander Lemenze
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Bioinformatics Core Design Proposal" />
   <meta property="og:title" content="Bioinformatics Core Design Proposal" />
   <meta property="twitter:title" content="Bioinformatics Core Design Proposal" />
-  <meta name="dc.date" content="2021-01-21" />
-  <meta name="citation_publication_date" content="2021-01-21" />
+  <meta name="dc.date" content="2021-01-22" />
+  <meta name="citation_publication_date" content="2021-01-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/cc030fb5a3cde93aedd8492826142c92b2a18246/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/cc030fb5a3cde93aedd8492826142c92b2a18246/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/cc030fb5a3cde93aedd8492826142c92b2a18246/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://alemenze.github.io/Core_Proposal/v/cc030fb5a3cde93aedd8492826142c92b2a18246/))
+([permalink](https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/))
 was automatically generated
-from [alemenze/Core_Proposal@cc030fb](https://github.com/alemenze/Core_Proposal/tree/cc030fb5a3cde93aedd8492826142c92b2a18246)
-on January 21, 2021.
+from [alemenze/Core_Proposal@adbe0ea](https://github.com/alemenze/Core_Proposal/tree/adbe0ea5f6bd2e9929f111407aff78a391ca0e03)
+on January 22, 2021.
 </em></small>
 
 ## Authors
@@ -97,23 +97,27 @@ The Core facility proposed herein shall be a semi-centralized effort. This desig
 
 A multitude of models have been used for designing bioinformatics core facilites. Often these end up swinging towards the poles of "biology" or "informatics" that must come together for an effective implementation. 
 
-##### Diffuse model
+1. Diffuse model
 
 A diffuse bioinformatics model is what often occurs without a semi-centralized or centralized effort. This avenue entails individual laboratories hiring and maintaining bioinformatics staff/equipment. As each laboratory is responsible for the staff, they are intimately familiar with the associated biology. This intimate association with the biology enables the diffuse bioinformaticians to work in an isolated environment and operate with full expertise of the project. Inherent in this model is increased costs for bioinformatics across the university, as individual laboratories each have increased staffing, and each will purchase and maintain their own informatics tools- such as local servers, HPC units, and software licenses. Additionally, as these bioinformaticians are focused on the biological questions at hand, they more often are entrenched in a canonical academic career path within that field, not within a bioinformatics focused effort or assisting on projects outside of their specialty. 
 
-##### Pure Centralized model
+2. Pure Centralized model
 
 A purely centralized model would be designed to build a pillar of bioinformatics at a central site. Though this can potentially be very strong, it also requires the largest buy in- both financially and investigator usage. As this type of model is often integral in developing infrastructure to facilitate high throughput data, this model can skew towards the informatics aspects. Inherent in this model is a lower overall cost of bioinformatics across the university, as the centralized core can leverage economy of scale for purchasing power for informatics tools. On the flip side, this model is often the least biologically focused, and can create a divide between the biologists and informaticians instead of uniting as bioinformaticians. 
 
 ## Bioinformatics Core Mission {.page_break_before}
 
-To continually evaluate best-in-class bioinformatics solutions, implement bleeding-edge bioinformatics techniques, and offer training of basic bioinformatics methods to advance reproducible analysis of biological data. 
+[
+TLDR: To continually evaluate best-in-class bioinformatics solutions, implement bleeding-edge bioinformatics techniques, and offer training of basic bioinformatics methods to advance reproducible analysis of biological data. 
+]{.banner .lightblue}
+
+Core facilities serve as a source of expertise in a particular field/topic to be shared amongst investigators. In the case of bioinformatics, the core facility is to provide expertise in computational analysis of biological datasets encompassing the fields of genomics, proteomics, metabolomics, and imaging based datasets. This includes operational know-how for computational tools, balancing hardware requirements for computational tools, benchmarking comparative computational tools, understanding the data generation techniques, and executing analyses. By leveraging the Core's expertise with these topics, investigators will be enabled to generate biologically driven discoveries. 
 
 ## Core Organizational Structure {.page_break_before}
 
 Core organization shall follow basic principals of ICS. Staffing shall be filled from the top down as demand is generated for specific roles. All roles will maintain the responsibilities of lower branches until subsequent steps are implemented. For example: If no Research Assistant Director for Metabolomics is assigned, the Associate Director of Research will bear the responsibilities for Metabolomics. At any stage if >7 staff are reporting up a tier to a single staff member an additional tier must be implemented. As within emergency services, this design is inherently flexible for scaling up or down as needed. 
 
-![Example Fully Loaded Org Chart](images/bi_org.png)
+![Example Fully Loaded Org Chart](images/bi_org.png){#fig:wide-image}
 Example for a full administration build out of organization
 
 
@@ -175,11 +179,15 @@ Examples:
 
 ### Collaborative Services
 
-
+Collaborative services will be the primary time utilization of core personnel. With collaborative services core staff will directly interface with investigators, pairing the core staffs computation expertise with the investigators domain-specific knowledge. This collaboration should be proactively discussed to set expectations for the project. Core personnel will be often expected to learn portions of the domain-specific knowledge, but should **not** be expected to become domain-specific experts. That should remain the responsibility of the investigators, and is why this is a collaboration, not the diffuse bioinformatics model that requires domain-specific bioinformaticians. 
 
 #### Grant percent Effort
 
+As a collaborative service, grant percent effort is when Core staff are covered as primary personnel on sponsored research. The percentage of effort should be commesurate with the expenditure of time and higher-level analyses. For ease, this can be targeted at a scale of 20% increments- with each 20% corresponding to 1 day/week of the staff members time dedicated to that specific project. At minimum, it is highly recommended for bi-weekly meetings between the Core staff and investigator to ensure alignment of workflows and timely progress. 
+
 #### Department/Unit support
+
+Department/Unit support is designed to provide collaborative services to non-sponsored research. This often will encompass investigators side projects, development of tools/workflows for investigators usage, and most importantly preliminary data for grant applications. This should begin the integration of Core staff in to a project, ensuring appropriate data practices are being followed to strengthen the application as well as encourage applications. 
 
 ## References {.page_break_before}
 
