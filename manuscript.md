@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/79f6879d94049298f4a76134216d233cf8f79cac/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/79f6879d94049298f4a76134216d233cf8f79cac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/79f6879d94049298f4a76134216d233cf8f79cac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://alemenze.github.io/Core_Proposal/v/adbe0ea5f6bd2e9929f111407aff78a391ca0e03/))
+([permalink](https://alemenze.github.io/Core_Proposal/v/79f6879d94049298f4a76134216d233cf8f79cac/))
 was automatically generated
-from [alemenze/Core_Proposal@adbe0ea](https://github.com/alemenze/Core_Proposal/tree/adbe0ea5f6bd2e9929f111407aff78a391ca0e03)
+from [alemenze/Core_Proposal@79f6879](https://github.com/alemenze/Core_Proposal/tree/79f6879d94049298f4a76134216d233cf8f79cac)
 on January 22, 2021.
 </em></small>
 

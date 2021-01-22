@@ -5,7 +5,7 @@ Basepair
 bcl
 benchmarking
 bioinformaticians
-Bioinformatics
+bioinformatics
 biomedicine
 commesurate
 CRO
@@ -25,7 +25,7 @@ informatically
 informaticians
 interogate
 Lemenze
-Metabolomics
+metabolomics
 natively
 NGS
 OARC
