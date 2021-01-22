@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/d2726d20cf4225a0b5208a9d2a7f7b401d02fa54/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/d2726d20cf4225a0b5208a9d2a7f7b401d02fa54/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/d2726d20cf4225a0b5208a9d2a7f7b401d02fa54/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://alemenze.github.io/Core_Proposal/v/d2726d20cf4225a0b5208a9d2a7f7b401d02fa54/))
+([permalink](https://alemenze.github.io/Core_Proposal/v/42c199ed04799ef221fc1785afcb1ebad426f80e/))
 was automatically generated
-from [alemenze/Core_Proposal@d2726d2](https://github.com/alemenze/Core_Proposal/tree/d2726d20cf4225a0b5208a9d2a7f7b401d02fa54)
+from [alemenze/Core_Proposal@42c199e](https://github.com/alemenze/Core_Proposal/tree/42c199ed04799ef221fc1785afcb1ebad426f80e)
 on January 22, 2021.
 </em></small>
 
@@ -102,15 +102,20 @@ A diffuse bioinformatics model is what often occurs without a semi-centralized o
 A purely centralized model would be designed to build a pillar of bioinformatics at a central site. Though this can potentially be very strong, it also requires the largest buy in- both financial and investigator usage. As this type of model is often integral in developing infrastructure to facilitate high throughput data, this model can skew towards the informatics aspects. Inherent in this model is a lower overall cost of bioinformatics across the university, as the centralized core can leverage economy of scale for purchasing power for informatics tools. On the flip side, this model is often the least biologically focused, and can create a divide between the biologists and informaticians instead of uniting as bioinformaticians. 
 
 3. Semi-Centralized model **(Proposed model)**
+
 The Core facility proposed herein shall be a semi-centralized effort. A semi-centralized design incorporates the strengths of both previous models by integrating into an overarching centralized infrastructure and providing branches of staff into semi-specialized workflows. One major downside to this model is requiring a centralized infrastructure team, which fortunately in this instance is already in place with the [Office of Advanced Research Computing](https://oarc.rutgers.edu/). By nesting the bioinformatics core within the existing infrastructure, the semi-centralized model gains the benefits of lower operating costs and existing informatics knowledge. The bioinformatics team can then focus on tuning the informatics to fit biological questions. With this, the bioinformatics team will have the availability to branch into data-acquisition specialities (such as genomics/proteomics etc described below), to then build a strongly collaborative environment with domain-specific investigators. 
 
-## Bioinformatics Core Mission {.page_break_before}
+## Example Bioinformatics Cores {.page_break_before}
 
-[
-TLDR: To continually evaluate best-in-class bioinformatics solutions, implement bleeding-edge bioinformatics techniques, and offer training of basic bioinformatics methods to advance reproducible analysis of biological data. 
-]{.banner .lightblue}
-
-Core facilities serve as a source of expertise in a particular field/topic to be shared amongst investigators. In the case of bioinformatics, the core facility is to provide expertise in computational analysis of biological datasets encompassing the fields of genomics, proteomics, metabolomics, and imaging based datasets. This includes operational know-how for computational tools, balancing hardware requirements for computational tools, benchmarking comparative computational tools, understanding the data generation techniques, and executing analyses. By leveraging the Core's expertise with these topics, investigators will be enabled to generate biologically driven discoveries. 
+Various core facilities for bioinformatics have utilized their own solutions for implementation. A few examples:
+- [The Applied Bioinformatics Laboratories at NYU](https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories). This core facility offers services in a variation of the semi-centralized model. Staff are provided on a percent effort basis, scaling in 20% increments to essentially "rent" out the staff member to the respective lab for 1 day per 20% incremement per week. [@https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories]
+- [The Harvard Chan Bioinformatics Core](https://bioinformatics.sph.harvard.edu/). This core facility offers standard services, but is renowned for their training capabilities. [@https://bioinformatics.sph.harvard.edu/]
+- [The UCSD Bioinformatics Core](http://compbio.ucsd.edu/services/). This core has multiple branches and generally runs on an hourly staff rate. In addition, they have an extension with a well known training program that funds many of their services. [@https://extension.ucsd.edu/courses-and-programs/applied-bioinformatics]
+- [The Bioinformatics Core at the University of Michigan](https://brcf.medicine.umich.edu/cores/bioinformatics-core/). This is a more traditional fee-for-service designed core facility, with basic pipeline services offered with additional add ons at cost. This core also has spawned at least one major bioinformatics company- [Advaita](https://advaitabio.com/) [@https://brcf.medicine.umich.edu/cores/bioinformatics-core/;@https://advaitabio.com/]
+- [The University of Maryland Bioinformatics Core](http://biology.umd.edu/services.html). This core is a classic core facility offering hourly and per-project rates for pipelined services. [@https://advaitabio.com/]
+- [UT Southwestern Bioinformatics Core](https://www.utsouthwestern.edu/labs/bioinformatics/). This core has a slightly different spin on services, offering their staff as "on-demand" for FTE coverage, or as "in-residence" with salary coverage for a full year. [@https://www.utsouthwestern.edu/labs/bioinformatics/]
+- [The BSR at VIGR at UVM](https://www.med.uvm.edu/vigr/bioinformatics). Another slightly different take on a core, the Bioinformatics Shared Resource is nested within the Vermont Integrated Genomics Resource at UVM. This core charges an hourly rate to cover staff time operating on genomics workflows. [@https://www.med.uvm.edu/vigr/bioinformatics]
+- [Genomics and Informatics Core at MIT](https://cehs.mit.edu/core-facilities/genomics-and-informatics-facilities-core). This core also provides staff on an hourly rate to investigators, though they provide different costings for those who have invested in the core facility or provide staff. [@https://cehs.mit.edu/core-facilities/genomics-and-informatics-facilities-core]
 
 ## Core Organizational Structure {.page_break_before}
 
@@ -187,6 +192,14 @@ As a collaborative service, grant percent effort is when Core staff are covered 
 #### Department/Unit support
 
 Department/Unit support is designed to provide collaborative services to non-sponsored research. This often will encompass investigators side projects, development of tools/workflows for investigators usage, and most importantly preliminary data for grant applications. This should begin the integration of Core staff in to a project, ensuring appropriate data practices are being followed to strengthen the application as well as encourage applications. 
+
+## Bioinformatics Core Mission {.page_break_before}
+
+[
+TLDR: To continually evaluate best-in-class bioinformatics solutions, implement bleeding-edge bioinformatics techniques, and offer training of basic bioinformatics methods to advance reproducible analysis of biological data. 
+]{.banner .lightblue}
+
+Core facilities serve as a source of expertise in a particular field/topic to be shared amongst investigators. In the case of bioinformatics, the core facility is to provide expertise in computational analysis of biological datasets encompassing the fields of genomics, proteomics, metabolomics, and imaging based datasets. This includes operational know-how for computational tools, balancing hardware requirements for computational tools, benchmarking comparative computational tools, understanding the data generation techniques, and executing analyses. By leveraging the Core's expertise with these topics, investigators will be enabled to generate biologically driven discoveries. 
 
 ## References {.page_break_before}
 
