@@ -25,7 +25,7 @@ informatically
 informaticians
 interogate
 Lemenze
-metabolomics
+Metabolomics
 natively
 NGS
 OARC
@@ -33,5 +33,6 @@ Partek
 pre
 proteomics
 SaaS
+specialities
 TLDR
 Transcriptome
