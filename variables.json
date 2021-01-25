@@ -7,11 +7,11 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2021-01-22",
+    "date-meta": "2021-01-25",
     "author-meta": [
       "Alexander Lemenze"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta name=\"citation_title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta property=\"og:title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta property=\"twitter:title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta name=\"dc.date\" content=\"2021-01-22\" />\n<meta name=\"citation_publication_date\" content=\"2021-01-22\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Alexander Lemenze\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology, Immunology, and Laboratory Medicine, Rutgers University- New Jersey Medical School\" />\n<meta name=\"citation_author_institution\" content=\"Center for Immunity and Inflammation, Rutgers University- New Jersey Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3053-0849\" />\n<link rel=\"canonical\" href=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta property=\"og:url\" content=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta property=\"twitter:url\" content=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta name=\"citation_pdf_url\" content=\"https://alemenze.github.io/Core_Proposal/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://alemenze.github.io/Core_Proposal/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta name=\"citation_title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta property=\"og:title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta property=\"twitter:title\" content=\"Bioinformatics Core Design Proposal\" />\n<meta name=\"dc.date\" content=\"2021-01-25\" />\n<meta name=\"citation_publication_date\" content=\"2021-01-25\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Alexander Lemenze\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pathology, Immunology, and Laboratory Medicine, Rutgers University- New Jersey Medical School\" />\n<meta name=\"citation_author_institution\" content=\"Center for Immunity and Inflammation, Rutgers University- New Jersey Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3053-0849\" />\n<link rel=\"canonical\" href=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta property=\"og:url\" content=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta property=\"twitter:url\" content=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://alemenze.github.io/Core_Proposal/\" />\n<meta name=\"citation_pdf_url\" content=\"https://alemenze.github.io/Core_Proposal/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://alemenze.github.io/Core_Proposal/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -21,7 +21,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "January 22, 2021",
+    "date": "January 25, 2021",
     "authors": [
       {
         "github": "alemenze",
@@ -54,19 +54,19 @@
       "repo_slug": "alemenze/Core_Proposal",
       "repo_owner": "alemenze",
       "repo_name": "Core_Proposal",
-      "commit": "9ca9eff6f6b50e02e68feb2d8997965ec5767d9c",
-      "triggering_commit": "9ca9eff6f6b50e02e68feb2d8997965ec5767d9c",
-      "build_url": "https://github.com/alemenze/Core_Proposal/commit/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/checks",
+      "commit": "120e99971f0fce0a50c1206b2fd464673d557d26",
+      "triggering_commit": "120e99971f0fce0a50c1206b2fd464673d557d26",
+      "build_url": "https://github.com/alemenze/Core_Proposal/commit/120e99971f0fce0a50c1206b2fd464673d557d26/checks",
       "job_url": "https://github.com/alemenze/Core_Proposal/runs/run3"
     },
     "html_url": "https://alemenze.github.io/Core_Proposal/",
     "pdf_url": "https://alemenze.github.io/Core_Proposal/manuscript.pdf",
-    "html_url_versioned": "https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/",
-    "pdf_url_versioned": "https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/manuscript.pdf",
+    "html_url_versioned": "https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/",
+    "pdf_url_versioned": "https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/manuscript.pdf",
     "manubot_version": "0.5.0",
     "rootstock_commit": "2191d929a12a233347ee79c673b8f2971c10e6dd",
     "manuscript_stats": {
-      "word_count": 2669
+      "word_count": 3312
     }
   }
 }

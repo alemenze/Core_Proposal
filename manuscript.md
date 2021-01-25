@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-22'
+date-meta: '2021-01-25'
 author-meta:
 - Alexander Lemenze
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Bioinformatics Core Design Proposal" />
   <meta property="og:title" content="Bioinformatics Core Design Proposal" />
   <meta property="twitter:title" content="Bioinformatics Core Design Proposal" />
-  <meta name="dc.date" content="2021-01-22" />
-  <meta name="citation_publication_date" content="2021-01-22" />
+  <meta name="dc.date" content="2021-01-25" />
+  <meta name="citation_publication_date" content="2021-01-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://alemenze.github.io/Core_Proposal/v/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c/))
+([permalink](https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/))
 was automatically generated
-from [alemenze/Core_Proposal@9ca9eff](https://github.com/alemenze/Core_Proposal/tree/9ca9eff6f6b50e02e68feb2d8997965ec5767d9c)
-on January 22, 2021.
+from [alemenze/Core_Proposal@120e999](https://github.com/alemenze/Core_Proposal/tree/120e99971f0fce0a50c1206b2fd464673d557d26)
+on January 25, 2021.
 </em></small>
 
 ## Authors
@@ -103,7 +103,7 @@ A purely centralized model would be designed to build a pillar of bioinformatics
 
 3. Semi-Centralized model **(Proposed model)**
 
-The Core facility proposed herein shall be a semi-centralized effort. A semi-centralized design incorporates the strengths of both previous models by integrating into an overarching centralized infrastructure and providing branches of staff into semi-specialized workflows. One major downside to this model is requiring a centralized infrastructure team, which fortunately in this instance is already in place with the [Office of Advanced Research Computing](https://oarc.rutgers.edu/). By nesting the bioinformatics core within the existing infrastructure, the semi-centralized model gains the benefits of lower operating costs and existing informatics knowledge. The bioinformatics team can then focus on tuning the informatics to fit biological questions. With this, the bioinformatics team will have the availability to branch into data-acquisition specialities (such as genomics/proteomics etc described below), to then build a strongly collaborative environment with domain-specific investigators. 
+The Core facility proposed herein shall be a semi-centralized effort. A semi-centralized design incorporates the strengths of both previous models by integrating into an overarching centralized infrastructure and providing branches of staff into semi-specialized workflows. One major downside to this model is requiring a centralized infrastructure team, which fortunately in this instance is already in place with the [Office of Advanced Research Computing](https://oarc.rutgers.edu/). By nesting the bioinformatics core within the existing infrastructure, the semi-centralized model gains the benefits of lower operating costs and existing informatics knowledge. The bioinformatics team can then focus on tuning the informatics to fit biological questions. With this, the bioinformatics team will have the availability to branch into data-acquisition specialities (such as genomics/proteomics etc described below), to then build a strongly collaborative environment with domain-specific investigators. Long term, having the individual staff members as part of a specific technology team within the bioinformatics core will enable shared expertise to be aligned for developing multi-omics integration tools. 
 
 ## Bioinformatics Core Mission {.page_break_before}
 
@@ -123,7 +123,7 @@ Various core facilities for bioinformatics have utilized their own solutions for
 - [The Harvard Chan Bioinformatics Core](https://bioinformatics.sph.harvard.edu/). This core facility offers standard services, but is renowned for their training capabilities [@https://bioinformatics.sph.harvard.edu/].
 - [The UCSD Bioinformatics Core](http://compbio.ucsd.edu/services/). This core has multiple branches and generally runs on an hourly staff rate. In addition, they have an extension with a well known training program that funds many of their services [@https://extension.ucsd.edu/courses-and-programs/applied-bioinformatics].
 - [The Bioinformatics Core at the University of Michigan](https://brcf.medicine.umich.edu/cores/bioinformatics-core/). This is a more traditional fee-for-service designed core facility, with basic pipeline services offered with additional add ons at cost. This core also has spawned at least one major bioinformatics company- [Advaita](https://advaitabio.com/) [@https://brcf.medicine.umich.edu/cores/bioinformatics-core/;@https://advaitabio.com/].
-- [The University of Maryland Bioinformatics Core](http://biology.umd.edu/services.html). This core is a classic core facility offering hourly and per-project rates for pipelined services [@https://advaitabio.com/].
+- [The University of Maryland Bioinformatics Core](http://biology.umd.edu/services.html). This core is a classic core facility offering hourly and per-project rates for pipelined services [@http://biology.umd.edu/services.html].
 - [UT Southwestern Bioinformatics Core](https://www.utsouthwestern.edu/labs/bioinformatics/). This core has a slightly different spin on services, offering their staff as "on-demand" for FTE coverage, or as "in-residence" with salary coverage for a full year [@https://www.utsouthwestern.edu/labs/bioinformatics/].
 - [The BSR at VIGR at UVM](https://www.med.uvm.edu/vigr/bioinformatics). Another slightly different take on a core, the Bioinformatics Shared Resource is nested within the Vermont Integrated Genomics Resource at UVM. This core charges an hourly rate to cover staff time operating on genomics workflows [@https://www.med.uvm.edu/vigr/bioinformatics].
 - [Genomics and Informatics Core at MIT](https://cehs.mit.edu/core-facilities/genomics-and-informatics-facilities-core). This core also provides staff on an hourly rate to investigators, though they provide different costings for those who have invested in the core facility or provide staff [@https://cehs.mit.edu/core-facilities/genomics-and-informatics-facilities-core].
@@ -205,6 +205,45 @@ As a collaborative service, grant percent effort is when Core staff are covered 
 #### Department/Unit support
 
 Department/Unit support is designed to provide collaborative services to non-sponsored research. This often will encompass investigators side projects, development of tools/workflows for investigators usage, and most importantly preliminary data for grant applications. This should begin the integration of Core staff in to a project, ensuring appropriate data practices are being followed to strengthen the application as well as encourage applications. 
+
+## Core Start up Logistics {.page_break_before}
+
+To initiate the core facility there needs to be a cohesive and aggressive start up strategy, with associated buy-in from individual units. This implementation will expand on the models used for OARC's development of the [Amarel HPC system](https://oarc.rutgers.edu/resources/amarel/), as well as experiences from [MaGIC's](http://www.bioinformagic.io/) start up. To disburse costs of staff, core members will be initially embedded in individual campuses. This will enable a 50/50 split of staff costs, with staff focusing their efforts to the embedded campus- while maintaining their efforts to general core development (IE pipeline establishment/maintenance). Through this cost sharing, the initial core staff will consist of 7 members minimum in an ideal setting:
+
+- OARC-Embedded Director
+- Busch Staff
+- Livingston Staff
+- Cook/Douglas Staff
+- College Ave Staff
+- Camden Staff
+- NJMS Newark Staff
+
+#### Estimated Costs for start up staffing of ideal setting
+
+Item | Unit cost | Units | Total costs
+--- | --- | --- | ---
+Staff salaries (minus benefits) | $100,000-$125,000 | 6 | $600,000-$750,000
+Director salary (minus benefits) | $150,000-$200,000 | 1 | $150,000-$200,000
+Staff workstations/laptops | $8,000 | 7 | $56,000
+Amarel nodes for staff (3 nodes/staff) | $7,078 | 21 | $148,638
+Amarel storage for staff (25tb/staff) | $150 | 175 | $26,250
+
+##### Subtotal costs of ideal setting: 
+$1,180,888
+##### Subtotal after campus split of ideal setting:
+$590,444
+
+### Development timeline
+
+1. Establish primary analysis pipelines. For the top seen workflows (IE: transcriptome analysis, whole genome sequencing, de novo assembly, 10X single cell etc), primary pipeline development would be first priority. This will enable initial revenue flow to the core, and should be heavily coordinated with data generating facilities. This should be operational for primary tools within **6 months** of inception. 
+2. Initiate SaaS development. Baselines SaaS tools will additionally enable a continual revenue flow based on the subscription model, and will enable investigators to dive in to secondary analysis based on primary analysis outputs. This should be at least individidually operational for primary tools within **9 months** of inception. 
+3. Expand/promote current training opportunities. Working in conjunction with current training courses and workshops, begin to expand the general bioinformatics know-how on campus while establishing entity. Collaborative trainings should be operational within **12 months**, with novel courses and workshops appearing within **24 months**. 
+4. Foster collaborative analyses. Alongside other development efforts, staff should begin to foster deep biological assistance collaborations with investigators. This will enable investigators to glean insights from large dataset projects prior to completion of investigator-enabled analyses. This should be continual throughout the development of this core, but at inception should be **<50% of individual staff's time**. As the core grows and other revenue streams mature in development, it would be expected to approach **~80% of staff's time**. As these collaborations grow, it is expected staff will be increasingly covered by collaborators/departments grants and other funds, reducing central/school costs over time. 
+5. Expand team. After 12 months of operations the core shall be evaluated for time demands, with the expectation of prompt expansion if justified. If within 12 months of operations the core is >50% covered through revenue streams and staff time are overtaxed, additional MS/PhD level staff will be pre-approved for rapid hire. 
+6. Internal training/SOP development. To account for additional onboarding and potential turnover rates, internal trainings and SOP development will be one of the initial priorities of the core director. These shall be established within **12 months** of inception, and will also enable onboarding of non-primary staff more efficiently, such as collaborative post-docs/graduate students. 
+
+#### Idea credit
+Ideas for start up logistics synthesized from meeting with [Paul Copeland](https://molbiosci.rutgers.edu/faculty-research/faculty/faculty-detail/80-c-d/134-paul-r-copeland), [Nir Yakoby](https://yakoby.camden.rutgers.edu/members/nir-yakoby/), [Aaron Milstein](https://cabm.rutgers.edu/person/aaron-d-milstein), [Ron Hart](https://cbn.rutgers.edu/cb-profile/rhart), and [Premal Shah](https://molbiosci.rutgers.edu/faculty-research/faculty/faculty-detail/88-s-t/220-premal-shah)
 
 ## Core Optimization {.page_break_before}
 
