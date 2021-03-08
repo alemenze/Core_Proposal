@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Alexander Lemenze" />
-  <meta name="dcterms.date" content="2021-01-25" />
+  <meta name="dcterms.date" content="2021-03-08" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Bioinformatics Core Design Proposal</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="Bioinformatics Core Design Proposal" />
   <meta property="og:title" content="Bioinformatics Core Design Proposal" />
   <meta property="twitter:title" content="Bioinformatics Core Design Proposal" />
-  <meta name="dc.date" content="2021-01-25" />
-  <meta name="citation_publication_date" content="2021-01-25" />
+  <meta name="dc.date" content="2021-03-08" />
+  <meta name="citation_publication_date" content="2021-03-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://alemenze.github.io/Core_Proposal/v/120e99971f0fce0a50c1206b2fd464673d557d26/">permalink</a>)
+(<a href="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/alemenze/Core_Proposal/tree/120e99971f0fce0a50c1206b2fd464673d557d26">alemenze/Core_Proposal@120e999</a>
-on January 25, 2021.
+from <a href="https://github.com/alemenze/Core_Proposal/tree/c6f9e84dc7afc138c6d54d173e4895146a385287">alemenze/Core_Proposal@c6f9e84</a>
+on March 8, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -116,7 +116,8 @@ Department of Pathology, Immunology, and Laboratory Medicine, Rutgers University
 <h2 class="page_break_before" id="core-organizational-structure">Core Organizational Structure</h2>
 <p>Core organization shall follow basic principals of ICS. Staffing shall be filled from the top down as demand is generated for specific roles. All roles will maintain the responsibilities of lower branches until subsequent steps are implemented. For example: If no Research Assistant Director for Metabolomics is assigned, the Associate Director of Research will bear the responsibilities for Metabolomics. At any stage if &gt;7 staff are reporting up a tier to a single staff member an additional tier must be implemented. As within emergency services, this design is inherently flexible for scaling up or down as needed.</p>
 <p><img src="images/bi_org.png" title="Org Chart" id="fig:wide-image" alt="Example Fully Loaded Org Chart" />
-Example for a full administration build out of organization</p>
+Example for a full administration build out of organization
+Clinical bioinformatics will additionally include a health informatics branch focused on medical informatics such as EHR data mining.</p>
 <h2 class="page_break_before" id="core-revenue-streams">Core Revenue Streams</h2>
 <p>This Core will focus on 4 primary revenue streams to both cover operational costs and provide for growth of the Core. These four revenue streams are designed to operate in synergy to meet the mission of the core.</p>
 <p>All project consultation will be provided free of any charge.</p>
@@ -156,75 +157,6 @@ Example for a full administration build out of organization</p>
 <p>As a collaborative service, grant percent effort is when Core staff are covered as primary personnel on sponsored research. The percentage of effort should be commesurate with the expenditure of time and higher-level analyses. For ease, this can be targeted at a scale of 20% increments- with each 20% corresponding to 1 day/week of the staff members time dedicated to that specific project. At minimum, it is highly recommended for bi-weekly meetings between the Core staff and investigator to ensure alignment of workflows and timely progress.</p>
 <h4 id="departmentunit-support">Department/Unit support</h4>
 <p>Department/Unit support is designed to provide collaborative services to non-sponsored research. This often will encompass investigators side projects, development of tools/workflows for investigators usage, and most importantly preliminary data for grant applications. This should begin the integration of Core staff in to a project, ensuring appropriate data practices are being followed to strengthen the application as well as encourage applications.</p>
-<h2 class="page_break_before" id="core-start-up-logistics">Core Start up Logistics</h2>
-<p>To initiate the core facility there needs to be a cohesive and aggressive start up strategy, with associated buy-in from individual units. This implementation will expand on the models used for OARC’s development of the <a href="https://oarc.rutgers.edu/resources/amarel/">Amarel HPC system</a>, as well as experiences from <a href="http://www.bioinformagic.io/">MaGIC’s</a> start up. To disburse costs of staff, core members will be initially embedded in individual campuses. This will enable a 50/50 split of staff costs, with staff focusing their efforts to the embedded campus- while maintaining their efforts to general core development (IE pipeline establishment/maintenance). Through this cost sharing, the initial core staff will consist of 7 members minimum in an ideal setting:</p>
-<ul>
-<li>OARC-Embedded Director</li>
-<li>Busch Staff</li>
-<li>Livingston Staff</li>
-<li>Cook/Douglas Staff</li>
-<li>College Ave Staff</li>
-<li>Camden Staff</li>
-<li>NJMS Newark Staff</li>
-</ul>
-<h4 id="estimated-costs-for-start-up-staffing-of-ideal-setting">Estimated Costs for start up staffing of ideal setting</h4>
-<table>
-<thead>
-<tr class="header">
-<th>Item</th>
-<th>Unit cost</th>
-<th>Units</th>
-<th>Total costs</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Staff salaries (minus benefits)</td>
-<td>$100,000-$125,000</td>
-<td>6</td>
-<td>$600,000-$750,000</td>
-</tr>
-<tr class="even">
-<td>Director salary (minus benefits)</td>
-<td>$150,000-$200,000</td>
-<td>1</td>
-<td>$150,000-$200,000</td>
-</tr>
-<tr class="odd">
-<td>Staff workstations/laptops</td>
-<td>$8,000</td>
-<td>7</td>
-<td>$56,000</td>
-</tr>
-<tr class="even">
-<td>Amarel nodes for staff (3 nodes/staff)</td>
-<td>$7,078</td>
-<td>21</td>
-<td>$148,638</td>
-</tr>
-<tr class="odd">
-<td>Amarel storage for staff (25tb/staff)</td>
-<td>$150</td>
-<td>175</td>
-<td>$26,250</td>
-</tr>
-</tbody>
-</table>
-<h5 id="subtotal-costs-of-ideal-setting">Subtotal costs of ideal setting:</h5>
-<p>$1,180,888
-##### Subtotal after campus split of ideal setting:
-$590,444</p>
-<h3 id="development-timeline">Development timeline</h3>
-<ol type="1">
-<li>Establish primary analysis pipelines. For the top seen workflows (IE: transcriptome analysis, whole genome sequencing, de novo assembly, 10X single cell etc), primary pipeline development would be first priority. This will enable initial revenue flow to the core, and should be heavily coordinated with data generating facilities. This should be operational for primary tools within <strong>6 months</strong> of inception.</li>
-<li>Initiate SaaS development. Baselines SaaS tools will additionally enable a continual revenue flow based on the subscription model, and will enable investigators to dive in to secondary analysis based on primary analysis outputs. This should be at least individidually operational for primary tools within <strong>9 months</strong> of inception.</li>
-<li>Expand/promote current training opportunities. Working in conjunction with current training courses and workshops, begin to expand the general bioinformatics know-how on campus while establishing entity. Collaborative trainings should be operational within <strong>12 months</strong>, with novel courses and workshops appearing within <strong>24 months</strong>.</li>
-<li>Foster collaborative analyses. Alongside other development efforts, staff should begin to foster deep biological assistance collaborations with investigators. This will enable investigators to glean insights from large dataset projects prior to completion of investigator-enabled analyses. This should be continual throughout the development of this core, but at inception should be <strong>&lt;50% of individual staff’s time</strong>. As the core grows and other revenue streams mature in development, it would be expected to approach <strong>~80% of staff’s time</strong>. As these collaborations grow, it is expected staff will be increasingly covered by collaborators/departments grants and other funds, reducing central/school costs over time.</li>
-<li>Expand team. After 12 months of operations the core shall be evaluated for time demands, with the expectation of prompt expansion if justified. If within 12 months of operations the core is &gt;50% covered through revenue streams and staff time are overtaxed, additional MS/PhD level staff will be pre-approved for rapid hire.</li>
-<li>Internal training/SOP development. To account for additional onboarding and potential turnover rates, internal trainings and SOP development will be one of the initial priorities of the core director. These shall be established within <strong>12 months</strong> of inception, and will also enable onboarding of non-primary staff more efficiently, such as collaborative post-docs/graduate students.</li>
-</ol>
-<h4 id="idea-credit">Idea credit</h4>
-<p>Ideas for start up logistics synthesized from meeting with <a href="https://molbiosci.rutgers.edu/faculty-research/faculty/faculty-detail/80-c-d/134-paul-r-copeland">Paul Copeland</a>, <a href="https://yakoby.camden.rutgers.edu/members/nir-yakoby/">Nir Yakoby</a>, <a href="https://cabm.rutgers.edu/person/aaron-d-milstein">Aaron Milstein</a>, <a href="https://cbn.rutgers.edu/cb-profile/rhart">Ron Hart</a>, and <a href="https://molbiosci.rutgers.edu/faculty-research/faculty/faculty-detail/88-s-t/220-premal-shah">Premal Shah</a></p>
 <h2 class="page_break_before" id="core-optimization">Core Optimization</h2>
 <p>The 4 revenue streams mentioned above are structured to <strong>enable biological insights from high throughput datasets</strong>, and each provides separate optimizations to meet this end goal and are summarized in this image.</p>
 <div id="fig:wide-image" class="fignos">
@@ -249,9 +181,7 @@ NYU Langone Health<br />
 <a href="https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories">https://med.nyu.edu/research/scientific-cores-shared-resources/applied-bioinformatics-laboratories</a></p>
 </div>
 <div id="ref-D852Vm42">
-<p>2. <strong>Harvard Chan Bioinformatics Core</strong> <br />
-Harvard Chan Bioinformatics Core<br />
-<a href="https://bioinformatics.sph.harvard.edu/">https://bioinformatics.sph.harvard.edu/</a></p>
+<p>2. <strong>Harvard Chan Bioinformatics Core</strong> <a href="https://bioinformatics.sph.harvard.edu/home">https://bioinformatics.sph.harvard.edu/home</a></p>
 </div>
 <div id="ref-93ReI6d0">
 <p>3. <strong>UC San Diego Extension | Continuing Education | UC San Diego Extension</strong> <a href="https://extension.ucsd.edu/courses-and-programs/applied-bioinformatics">https://extension.ucsd.edu/courses-and-programs/applied-bioinformatics</a></p>
