@@ -5,8 +5,8 @@ bam
 Basepair
 bcl
 benchmarking
-Bioinformaticians
-Bioinformatics
+bioinformaticians
+bioinformatics
 biomedicine
 BSR
 commesurate

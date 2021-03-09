@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-08'
+date-meta: '2021-03-09'
 author-meta:
 - Alexander Lemenze
 header-includes: |-
@@ -18,8 +18,8 @@ header-includes: |-
   <meta name="citation_title" content="Bioinformatics Core Design Proposal" />
   <meta property="og:title" content="Bioinformatics Core Design Proposal" />
   <meta property="twitter:title" content="Bioinformatics Core Design Proposal" />
-  <meta name="dc.date" content="2021-03-08" />
-  <meta name="citation_publication_date" content="2021-03-08" />
+  <meta name="dc.date" content="2021-03-09" />
+  <meta name="citation_publication_date" content="2021-03-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://alemenze.github.io/Core_Proposal/" />
   <meta name="citation_pdf_url" content="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://alemenze.github.io/Core_Proposal/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/" />
-  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/" />
-  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://alemenze.github.io/Core_Proposal/v/969e7287a37badb35383e31cf8e804889fbb0edb/" />
+  <meta name="manubot_html_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/969e7287a37badb35383e31cf8e804889fbb0edb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://alemenze.github.io/Core_Proposal/v/969e7287a37badb35383e31cf8e804889fbb0edb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,10 +60,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://alemenze.github.io/Core_Proposal/v/c6f9e84dc7afc138c6d54d173e4895146a385287/))
+([permalink](https://alemenze.github.io/Core_Proposal/v/969e7287a37badb35383e31cf8e804889fbb0edb/))
 was automatically generated
-from [alemenze/Core_Proposal@c6f9e84](https://github.com/alemenze/Core_Proposal/tree/c6f9e84dc7afc138c6d54d173e4895146a385287)
-on March 8, 2021.
+from [alemenze/Core_Proposal@969e728](https://github.com/alemenze/Core_Proposal/tree/969e7287a37badb35383e31cf8e804889fbb0edb)
+on March 9, 2021.
 </em></small>
 
 ## Authors
@@ -174,7 +174,7 @@ Example: Transcriptome analysis + visualizations
 
 ### Training Services
 
-Training services will be offered to increase the bioinformatics education level of university members. In alignment with traditional open-source values, **all** training materials will be made open-access. Charges will only be incurred for staffed courses. 
+Training services will be offered to increase the bioinformatics education level of university members. In alignment with traditional open-source values, **all** training materials will be made open-access. Charges will only be incurred for staffed courses to cover staff time. 
 
 #### Prescribed courses
 
